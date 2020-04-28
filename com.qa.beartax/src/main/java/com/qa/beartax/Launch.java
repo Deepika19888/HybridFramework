@@ -98,6 +98,7 @@ public class Launch extends DriverScript {
 		Thread.sleep(2000);
 		driver.navigate().back();
 		LoginButton.click();
+		System.out.println("Test Add");
 
 		BearTaxTestCase currentTestCase3 = new BearTaxTestCase();
 		currentTestCase3.setElement(LoginButton);
